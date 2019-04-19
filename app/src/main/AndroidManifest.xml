@@ -21,7 +21,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignupActivity" />
-        <activity android:name=".MenuActivity" />
+        <activity android:name=".UserActivity" />
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" />
     </application>
 
 </manifest>
